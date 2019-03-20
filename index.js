@@ -9,7 +9,7 @@ const http = require('http');
 const shopifyApiPublicKey = process.env.SHOPIFY_API_KEY;
 const shopifyApiSecretKey = process.env.SHOPIFY_API_SECRET;
 const scopes = 'write_products';
-const appUrl = 'http://d181cadb.ngrok.io';
+const appUrl = 'https://og-shopify.herokuapp.com';
 const request = require('request');
 
 const app = express();
